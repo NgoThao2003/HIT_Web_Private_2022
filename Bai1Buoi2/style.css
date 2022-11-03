@@ -1,0 +1,56 @@
+#container{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+.sub{
+    background-color: rgb(215, 137, 27);
+    width: 32px;
+    height: 32px;
+}
+.sub2{
+    background-color:  rgb(215, 137, 27);
+    width: 100px;
+    float: left;
+    height: 32px;
+}
+.I{
+    background-color:  rgb(215, 137, 27);
+    margin-left: 25px;
+}
+.T{
+    
+    margin-left: 25px;
+}
+.subT1{
+    background-color:  rgb(215, 137, 27);
+    width: 120px;
+    float: left;
+    height: 32px;
+}
+.subT2{
+    background-color:  rgb(215, 137, 27);
+    width: 32px;
+    height: 32px;
+    margin-left: 42px;
+}
+.so1{
+    background-color:  rgb(215, 137, 27);
+    margin-left: 60px;
+}
+.so3{
+    margin-left: 25px;
+}
+.sub3{
+    background-color:  rgb(215, 137, 27);
+    width: 32px;
+    height: 32px;
+    margin-left: 88px;
+}
+.sub4{
+    background-color:rgb(215, 137, 27);
+    width: 120px;
+    float: left;
+    height: 32px;
+}
