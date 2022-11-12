@@ -1,0 +1,128 @@
+.Tong{
+    background-color: rgb(218, 222, 226);
+}
+.container1{
+    width: 100% ;
+    height: 120px;
+    background-color: rgb(247, 130, 76);
+    display: flex;
+    justify-content: space-between;
+}
+.trai{
+    display: flex;
+    justify-content: space-around;
+}
+.name{
+    color: white;
+    margin-left: 20px;
+    font-size: 30px;
+}
+.anh img{
+    margin: 10px 10px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 30px;
+}
+.icon{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    margin: 15px;
+    font-size: 20px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+}
+.con1{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    /* de xuong dong */
+} 
+.dong1{
+    width: 100%;
+    display: flex;
+}
+.lopP{
+    background-color: orange;
+    border-radius: 40px;
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding-left: 22px;
+    padding-bottom: 18px;
+}
+.lopH{
+    background-color: white;
+    border-radius: 40px;
+    width: 130px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-left: 30px;
+    padding-bottom: 18px;
+}
+.posts{
+    background-color: orange;
+    color: white;
+    border-radius: 40px;
+    width: 150px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 65px;
+    padding-left: 115px;
+    padding-bottom: 1px;
+    font-size: 20px;
+}
+.block1{
+    background-color: rgb(229, 235, 239);
+    border-radius: 7px;
+    margin-left: 30px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(183, 188, 187);
+    height: 250px;
+}
+.c1 img{
+    border-top-left-radius: 7px;
+    border-top-right-radius:7px;
+}
+.c2{
+    margin-left: 10px;
+}
+con2{
+    width: 30%;
+}
+.block2{
+    padding: 1px 1px;
+    margin-left: 70px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: wrap; 
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow:  2px 2px 2px 2px rgb(183, 188, 187);
+    justify-content: space-around;
+}
+.content3{
+    background-color: orange;
+    width: 100%;
+    height: 60px;
+    font-size: 30px;
+    color: white;
+    margin-top: 10px;
+    padding-top: 35px;
+    padding-left: 40%;
+}
+.hit{
+    color: red;
+    width: 100px;
+}
+.content3 i{
+    color: red;
+}
