@@ -1,0 +1,72 @@
+body{
+    background-image: url('background.jpg') ;
+    background-size: cover;
+}
+.container{
+    width: 28%;
+    height: 520px;
+    background-color: white;
+    border-style: none;
+    margin: auto;
+    margin-top: 40px;
+}
+.tieude{
+    margin-left: 135px;
+    padding-top: 20px;
+    
+}
+.name {
+    margin-left: 60px;
+}
+input[type=text], input[type=password]{
+    width: 230px;
+    height: 25px;
+}
+.password{
+    padding-top: 30px;
+    margin-left: 60px;
+}
+.forgot{
+    margin-left: 160px;
+}
+
+input[type=submit]{
+    width: 230px;
+    height: 33px;
+    border-radius: 50px;
+    border-style: none;
+    margin-left: 60px;
+    background-image: url('background.jpg');
+}
+.or{
+    margin-top: 25px;
+    margin-left: 120px;
+}
+
+.icon{
+    font-size: 35px;
+    display: flex;
+    margin-left: 100px;
+  
+}
+
+.icon1{
+    margin-left: 15px;
+    color: rgb(90, 90, 201);
+}
+
+.icon2{
+    margin-left: 15px;
+    color: rgb(73, 111, 224);
+}
+
+.icon3{
+    margin-left: 15px;
+    color: rgb(218, 60, 60);
+}
+
+.ket{
+    margin-top: 55px;
+    text-align: center;
+    line-height: 0.7;
+}

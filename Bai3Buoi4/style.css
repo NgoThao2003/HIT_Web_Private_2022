@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background: rgb(141,208,214);
+    background: linear-gradient(90deg, rgba(141,208,214,1) 0%, rgba(91,124,217,1) 11%, rgba(119,210,229,1) 48%);
+}
+.tieude{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+.container{
+    width: 60%;
+    height: 450px;
+    border-style: none;
+    box-shadow: 3px 3px 3px 3px rgb(134, 134, 143);
+    background-color: white;
+    margin: auto;
+    margin-top: 30px;
+}
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    width: 30%;
+    display: flex;
+    color: black;
+    font-size: 37px;
+    padding-top: 30px;
+    margin-left: 50px;
+}
+.icon1{
+    font-size: 17px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.content1{
+    margin-top: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    display: flex;
+    width: 100%;
+    height: 35px;
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(141,208,214);
+    background: linear-gradient(90deg, rgba(141,208,214,1) 0%, rgba(91,124,217,1) 11%, rgba(119,210,229,1) 48%);
+}
+input[type=search]{
+    position: absolute; 
+    height: 25px;
+    margin-left: -60px;
+    border-radius: 30px;
+    width: 100px;
+    margin-top: -3px;
+}
+a{
+    text-decoration: none;
+}
+.duoi{
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 60px;
+    margin-top: 35px;
+}
+.left1{
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+    
+}
+.con1{
+    color: white;
+    width: 90px;
+    height: 25px;
+    padding-left: 17px;
+    padding-top: 4px;
+    border-style: solid;
+    border-radius: 50px;
+    background: rgb(141,208,214);
+    background: linear-gradient(90deg, rgba(141,208,214,1) 0%, rgba(91,124,217,1) 11%, rgba(119,210,229,1) 48%);
+}
+.con1:hover{
+    color: black;
+}
+
+.iconcuoi{
+    color: rgb(56, 88, 129);
+    margin-top: 40px;
+    font-size: 25px;
+    word-spacing: 10px;
+}
+.right{
+ margin-top: 5px;
+}
+
+
+
