@@ -1,0 +1,114 @@
+*body{
+    margin: 0;
+    padding: 0;
+}
+.Start{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    border-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.Start__right{
+    margin-top: 30px;
+    text-align: center;
+     word-spacing: 30px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+
+}
+.content1{
+    color: white;
+    width: 100%;
+    height: 551px;
+    background-image: url(maytinh.webp);
+    background-size: auto;
+    text-align: center;
+}
+
+.content2{
+    color: white;
+    width: 100%;
+    height: 551px;
+    background-color: rgb(235, 97, 62);
+    text-align: center;
+}
+
+.content3{
+    color: black;
+    width: 100%;
+    height: 551px;
+    background-color: white;
+    text-align: center;
+    
+}
+.content3 .content3__icon{
+    
+    color: rgb(235, 97, 62);
+    display: flex;
+    justify-content: center;
+    max-width: 60%;
+    margin: auto;
+ 
+
+}
+.content4{
+    width: 100%;
+    height: 800px;
+    background-color: black;
+    text-align: center;
+}
+
+.content4 .content4__image{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* .content4__image1{
+    width: 33.4%; 
+    height: 240px;
+    position: relative;
+}
+
+.content4__image1--hover{
+    width: 100%;
+    height: 100%;
+
+}
+.content4__image1--hover1{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+}
+
+.content4__image1:hover .content4__image1--hover{
+    background-color: rgb(20, 96, 96);
+    opacity: 0.8;
+} */
+
+.content5{
+    color: black;
+    width: 100%;
+    height: 551px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+input[type=text], input[type=email], input[type=tel]{
+    border-radius: 6px;
+    border-color: rgb(235, 97, 62);
+}
+input[type=submit]{
+    border-radius: 20px;
+    border-style: none;
+}

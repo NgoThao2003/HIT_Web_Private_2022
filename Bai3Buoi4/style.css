@@ -102,6 +102,7 @@ a{
 }
 .right{
  margin-top: 5px;
+ clip-path: polygon(100% 76%, 0 82%, 45% 3%);
 }
 
 
