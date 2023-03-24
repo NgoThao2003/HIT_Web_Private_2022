@@ -5,7 +5,12 @@ let arrC = [];
 for( let i = 0; i < arrA.length; i++ ){
     for( let j = 0; j < arrB.length; j++ ){
         if( arrA[i] === arrB[j] ){ 
-            arrC.push(arrA[i]);
+            arrC.push( arrA[i] );
+            arrA.splice(i,1);
+            arrB.splice(i,1);
+            --i;
+            --j;
+            break;
         }
     }
 }
